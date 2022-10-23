@@ -1,0 +1,25 @@
+input{
+    height: 40px;
+    border: none;
+    background: transparent;
+    font-family: 'General Sans';
+    font-size: 15px;
+    outline: none;
+    padding: 1em 1em;
+    position: relative;
+  }
+.buttons{
+    display:flex;
+    justify-content:center;
+    cursor: pointer;
+    flex-direction: row;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: #0F0F0F;
+    border-radius: 20px;
+    font-family: 'General Sans';
+    color: #FAFAFA;
+    cursor: pointer;
+  }

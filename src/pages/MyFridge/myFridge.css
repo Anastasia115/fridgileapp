@@ -1,0 +1,77 @@
+.myFridge {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fridgeLeftSide {
+  width: 50%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.fridgeTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fridgeTitle p {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 30px 20px 0px 20px;
+}
+
+.fridgeSubTitle {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
+  margin: 10px 20px;
+}
+
+.fridgeCategories {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.fridgeRightSide {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .myFridge {
+    flex-direction: column;
+  }
+
+  .fridgeLeftSide {
+    width: 100%;
+  }
+
+  .fridgeRightSide {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .fridgeCategories {
+    justify-content: center;
+  }
+
+  .fridgeLeftSide {
+    min-height: 70vh;
+  }
+}
