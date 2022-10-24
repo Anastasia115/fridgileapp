@@ -16,7 +16,7 @@ export const ItemInListComponent = ({
   const [counter, setCounter] = useState(1);
 const incrementCounter = () => setCounter(counter + 1);
 const decrementCounter = () => setCounter(counter - 1);
-const [isChecked, setIsChecked] = useState(false)
+const [isChecked, setIsChecked] = useState(false);
 
   return (
     <>
@@ -28,16 +28,16 @@ const [isChecked, setIsChecked] = useState(false)
               <React.Fragment key={task.id}>
                 <div className="item-container">
                 <div className="item">
-                  <div className={task.status ? "done" : ""}>
+                  <div className={task.id ? "done" : ""}>
                     
                     
                       {isChecked ?  <img
                       src={CheckIcon}
-                        title="Completed / Not Completed"
+                        title="Completed"
                         onClick={(e) => {markDone(task.id), setIsChecked(false)}}
                       /> :<img
                       src={NotCheckIcon}
-                        title="Completed / Not Completed"
+                        title="Not Completed"
                         onClick={(e) => {markDone(task.id), setIsChecked(true)}}
                       />  }
                     
