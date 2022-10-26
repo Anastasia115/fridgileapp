@@ -16,6 +16,7 @@ export const ItemInListComponent = ({
   const [counter, setCounter] = useState(1);
 const incrementCounter = () => setCounter(counter + 1);
 const decrementCounter = () => setCounter(counter - 1);
+
 const [isChecked, setIsChecked] = useState(false);
 
   return (

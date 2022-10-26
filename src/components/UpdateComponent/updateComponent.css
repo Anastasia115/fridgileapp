@@ -22,4 +22,6 @@ input{
     font-family: 'General Sans';
     color: #FAFAFA;
     cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
   }

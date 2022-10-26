@@ -1,0 +1,111 @@
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-weight: normal;
+  src: "../fonts/GeneralSans-Regular.OTF" format("opentype");
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-weight: bold;
+  src: "../fonts/GeneralSans-Medium.OTF" format("opentype");
+}
+.titleprofile{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titleprofile h2{
+    font-family: 'Clash Display', sans-serif;
+    font-weight:500;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.titleprofile img{
+    width: 30px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.main-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-section img{
+    width: 150px;
+    margin: 20px;
+    border-radius: 100px;
+}
+.main-section h3{
+    font-family: 'General Sans';
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.main-section p{
+    font-family: 'General Sans';
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+.statistics{
+    display: flex;
+    justify-content: center;
+}
+.invite{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.invite p{
+    font-family: 'General Sans';
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0%;
+}
+.invite button{
+    border: none;
+  background-color: transparent;
+  font-family: 'General Sans';
+  font-weight: 600;
+  color: #E57B07;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.logout{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logout button{
+    border: none;
+  background-color: transparent;
+  font-family: 'General Sans';
+  font-weight: 600;
+  color: #E57B07;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.logout img{
+    padding-top: 10px;
+}

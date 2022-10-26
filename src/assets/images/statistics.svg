@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="356" height="201" viewBox="0 0 356 201">
+  <defs>
+    <filter id="Rectangle_237" x="155" y="0" width="201" height="201" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_236" x="0" y="0" width="201" height="201" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1314" x="198.673" y="42.396" width="116.803" height="116.803" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_190" x="43" y="42" width="116" height="117" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_165" data-name="Group 165" transform="translate(-17 -370)">
+    <g id="Group_164" data-name="Group 164">
+      <g transform="matrix(1, 0, 0, 1, 17, 370)" filter="url(#Rectangle_237)">
+        <rect id="Rectangle_237-2" data-name="Rectangle 237" width="141" height="141" rx="70.5" transform="translate(185 27)" fill="#fafafa"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 17, 370)" filter="url(#Rectangle_236)">
+        <rect id="Rectangle_236-2" data-name="Rectangle 236" width="141" height="141" rx="70.5" transform="translate(30 27)" fill="#fafafa"/>
+      </g>
+      <g id="Group_123" data-name="Group 123" transform="translate(224.673 418.396)">
+        <g transform="matrix(1, 0, 0, 1, -207.67, -48.4)" filter="url(#Path_1314)">
+          <path id="Path_1314-2" data-name="Path 1314" d="M49.4,0A49.4,49.4,0,1,1,0,49.4,49.4,49.4,0,0,1,49.4,0Z" transform="translate(207.67 48.4)" fill="#dbeddd"/>
+        </g>
+        <path id="Icon_weather-moon-third-quarter" data-name="Icon weather-moon-third-quarter" d="M4.488,51.971A46.977,46.977,0,0,0,10.944,76.15,48.1,48.1,0,0,0,28.432,93.7a47.29,47.29,0,0,0,24.158,6.462V3.828A46.985,46.985,0,0,0,28.432,10.29,47.781,47.781,0,0,0,10.944,27.836,46.935,46.935,0,0,0,4.488,51.971Z" transform="translate(-2.591 103.292) rotate(-90)" fill="#e57b07" stroke="#e57b07" stroke-width="1"/>
+        <path id="Icon_weather-moon-third-quarter-2" data-name="Icon weather-moon-third-quarter" d="M4.488,53.208a48.183,48.183,0,0,0,6.622,24.8A49.339,49.339,0,0,0,29.047,96a48.5,48.5,0,0,0,24.778,6.628V3.828a48.191,48.191,0,0,0-24.778,6.628,49.008,49.008,0,0,0-17.937,18A48.14,48.14,0,0,0,4.488,53.208Z" transform="translate(-3.99 -3.828)" fill="#e57b07"/>
+        <circle id="Ellipse_193" data-name="Ellipse 193" cx="35" cy="35" r="35" transform="translate(14.327 14.604)" fill="#fff"/>
+      </g>
+      <g id="Group_122" data-name="Group 122" transform="translate(68.234 418.396)">
+        <g transform="matrix(1, 0, 0, 1, -51.23, -48.4)" filter="url(#Ellipse_190)">
+          <g id="Ellipse_190-2" data-name="Ellipse 190" transform="translate(52 48)" fill="#dbeddd" stroke="#dbeddd" stroke-width="1">
+            <ellipse cx="49" cy="49.5" rx="49" ry="49.5" stroke="none"/>
+            <ellipse cx="49" cy="49.5" rx="48.5" ry="49" fill="none"/>
+          </g>
+        </g>
+        <path id="Icon_weather-moon-third-quarter-3" data-name="Icon weather-moon-third-quarter" d="M4.488,51.971A46.977,46.977,0,0,0,10.944,76.15,48.1,48.1,0,0,0,28.432,93.7a47.29,47.29,0,0,0,24.158,6.462V3.828A46.985,46.985,0,0,0,28.432,10.29,47.781,47.781,0,0,0,10.944,27.836,46.935,46.935,0,0,0,4.488,51.971Z" transform="translate(-3.156 -3.21)" fill="#e57b07" stroke="#e57b07" stroke-width="1"/>
+        <g id="Group_121" data-name="Group 121" transform="translate(0 0)">
+          <g id="Group_120" data-name="Group 120">
+            <path id="Icon_weather-moon-third-quarter-4" data-name="Icon weather-moon-third-quarter" d="M0,48.143A46.977,46.977,0,0,0,6.456,72.322,48.1,48.1,0,0,0,23.944,89.868,47.29,47.29,0,0,0,48.1,96.33V0A46.985,46.985,0,0,0,23.944,6.462,47.781,47.781,0,0,0,6.456,24.008,46.935,46.935,0,0,0,0,48.143Z" transform="translate(0.804 97.566) rotate(-90)" fill="#dbeddd" stroke="#dbeddd" stroke-width="1"/>
+            <circle id="Ellipse_191" data-name="Ellipse 191" cx="35" cy="35" r="35" transform="translate(14.766 14.604)" fill="#fff"/>
+            <line id="Line_110" data-name="Line 110" y1="14.734" transform="translate(49.402)" fill="none"/>
+            <line id="Line_111" data-name="Line 111" x2="14.734" transform="translate(0 49.402)" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <text id="_25_" data-name="25%" transform="translate(118 458)" fill="#151515" font-size="18" font-family="GeneralSans-Medium, General Sans" font-weight="500"><tspan x="-19.494" y="0">25%</tspan></text>
+      <text id="Food_Thrown" data-name="Food 
+Thrown" transform="translate(117 473)" fill="#151515" font-size="10" font-family="GeneralSans-Medium, General Sans" font-weight="500"><tspan x="-12.58" y="0">Food </tspan><tspan x="-17.48" y="13">Thrown</tspan></text>
+      <text id="_75_" data-name="75%" transform="translate(274 457)" fill="#151515" font-size="17" font-family="GeneralSans-Medium, General Sans" font-weight="500"><tspan x="-18.037" y="0">75%</tspan></text>
+      <text id="Food_Saved" data-name="Food 
+Saved" transform="translate(273 473)" fill="#151515" font-size="10" font-family="GeneralSans-Medium, General Sans" font-weight="500"><tspan x="-12.58" y="0">Food </tspan><tspan x="-14.175" y="13">Saved</tspan></text>
+    </g>
+  </g>
+</svg>

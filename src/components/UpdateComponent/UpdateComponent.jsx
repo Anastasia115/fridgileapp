@@ -17,8 +17,8 @@ export const UpdateComponent = ({
           />
         </div>
         <div className="buttons">
-          <button className="btn" onClick={updateTask}>Update</button>
           <button className="btn" onClick={cancelUpdate}>Cancel</button>
+          <button className="btn" onClick={updateTask}>Update</button>
         </div>
       </div>
       <br />
